@@ -36,8 +36,8 @@
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TemplateToSwift-TemplateToSwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemplateToSwift-TemplateToSwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-TemplateToSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateToSwift.debug.xcconfig"; path = "Target Support Files/Pods-TemplateToSwift/Pods-TemplateToSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		42919B542B27835100DE5CCA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = TemplateToSwift/main.swift; sourceTree = "<group>"; };
-		42919B552B27835100DE5CCA /* main-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "main-Bridging-Header.h"; path = "TemplateToSwift/main-Bridging-Header.h"; sourceTree = "<group>"; };
 		42919B562B27835100DE5CCA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TemplateToSwift/AppDelegate.swift; sourceTree = "<group>"; };
+		42919B592B2783FC00DE5CCA /* main-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "main-Bridging-Header.h"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-TemplateToSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateToSwift.release.xcconfig"; path = "Target Support Files/Pods-TemplateToSwift/Pods-TemplateToSwift.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-TemplateToSwift-TemplateToSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateToSwift-TemplateToSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-TemplateToSwift-TemplateToSwiftTests/Pods-TemplateToSwift-TemplateToSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-TemplateToSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemplateToSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,11 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				42919B562B27835100DE5CCA /* AppDelegate.swift */,
-				42919B552B27835100DE5CCA /* main-Bridging-Header.h */,
 				42919B542B27835100DE5CCA /* main.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				42919B592B2783FC00DE5CCA /* main-Bridging-Header.h */,
 			);
 			name = TemplateToSwift;
 			sourceTree = "<group>";
